@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ps2dev/ps2dev:latest
+    container: ps2dev/ps2dev@sha256:1e9c6edff829a9f7a2aeb2088ae567618f79711b31ea294407a9e6d83484137e
     steps:
 
       - name: Install dependencies
